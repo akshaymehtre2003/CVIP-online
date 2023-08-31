@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online_Codify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/628c8c5307.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <label><img src="html.png"> HTML</label>
+            <textarea id="html-code" onkeyup="run()"></textarea>
+
+            <label><img src="css.png"> CSS</label>
+            <textarea id="css-code" onkeyup="run()"></textarea>
+
+            <label><img src="js.png"> Javascript</label>
+            <textarea id="js-code" onkeyup="run()"></textarea>
+        </div>
+
+        <div class="right">
+            <label style="border-radius: 6px;"><i class="fa-solid fa-play"></i> Output</label>
+            <iframe style="border-radius: 7px;" id="output"></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
